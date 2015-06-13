@@ -53,6 +53,8 @@ public class Aula58_ManipulacaoString {
 		
 		System.out.println(vazio + " - " + inicioIndicePalavra + " - " + ultimaOcorrenciaLetra);
 		
+		
+		
 	}
 
 
