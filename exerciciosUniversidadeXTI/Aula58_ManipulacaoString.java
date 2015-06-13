@@ -19,6 +19,7 @@ public class Aula58_ManipulacaoString {
 		
 		operacoesString();
 		localizacaoString();
+		comparandoStrings();
 	}
 	
 	public static void operacoesString() {
@@ -56,10 +57,48 @@ public class Aula58_ManipulacaoString {
 	}
 
 
+	public static void comparandoStrings() {
+
+		String xti = "universidadeXTI";
+		String XTI = "universidadeXTI";
+		String jvm = "Java Virtual Machine";
 
 
+		//O operador de comparação == serve para comparar String objeto, não seus valores
+		boolean isEquals = xti == XTI;
+		System.out.println(isEquals); //aqui vai retornar um true
 
+		//Comparando os valores dentro de uma String
+		boolean x = xti.equals("UniversidadeXTI"); // aqui retorna um false
+		boolean y = xti.equalsIgnoreCase("UNIVERSIDADExti"); // aqui retorna true
+		System.out.println(x + " - " + y);
 
+		//Vai retornar um boolean se a string começa com uma letra e depois se termina com uma letra
+		boolean comeca = xti.startsWith("u"); // true
+		boolean termina = xti.endsWith("i"); // false
+		System.out.println(comeca + " - " + termina);
 
+		//Vamos usar o compareTo, este serve para saber o ordem das palavras (bom para ordenacao), datas
+		// ele retorna os valores: -1, 0 e 1 - menor, igual ou maior
+		int comp = xti.compareTo(XTI); //retorna 0
+		int comp2 = xti.compareTo("v"); //retorna -1
+		int comp3 = xti.compareTo("t"); //retorna 1
+		System.out.println(comp3);
+
+		//Procurando uma string em uma determinada região de outra string
+		// achar vai retornar uma boolean
+		String texto = "quanto eu fico olhando";
+		String procura = "olhando";
+		boolean contem = texto.regionMatches(true, 15, procura, 0, 7);
+		//explicando os parametros:
+		// em true - serve para ignorar o case, ou seja, ignoreCase
+		// em 15 - a jvm vai procurar pela palavra a partir do indice 15
+		// em procura -  e a palavra que a jvm vai tentar encontrar, no caso é uma variável do tipo String
+		// em 0 e 7, significa a partir do indice 15 que é o 2º parâmetro, a jvm vai buscar a palavra do 3º 
+		// parâmetro partindo do indice 0 até 7 que é o ultimo parâmetro
+
+		System.out.println(contem);//aqui é true
+
+	}
 
 }
