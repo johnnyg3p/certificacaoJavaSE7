@@ -1,0 +1,9 @@
+package br.com.exercicioXTI.teste;
+
+public class AnimalTeste {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+INDEX VERSION 1.127+/Users/edneyroldao/Library/opensource/projects/certificacaoJavaSE7/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+3180943975.index
+1889141495.index
+4126142493.index
+1403906795.index
+1489486573.index
+1145286187.index
+1999400846.index
+691241477.index
+934610472.index
+4199737743.index
+1271342938.index
+3954952935.index
+500258132.index
+3516936394.index
+3208387726.index
+2278770880.index
+2064082170.index
