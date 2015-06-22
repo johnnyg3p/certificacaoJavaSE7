@@ -1,0 +1,15 @@
+package br.com.exercicioXTI.entidades;
+
+public class OperacaoMatematica <T> {
+	
+	public double calcular(double x, double y) {
+		return 0;
+	}
+
+	public T entity() {
+		
+		T entity;
+		
+		return entity;
+	}
+}

@@ -1,0 +1,20 @@
+package br.com.exercicioXTI.entidades;
+
+public class Cachorro extends Animal{
+
+	public Cachorro(double peso, String comida) {
+		super(30, "Carne");
+	}
+	
+	public Cachorro() {
+		
+	}
+	
+	//Quando a classe é abstrata e possui um metodo abstrato
+	// suas classes filhas sao obrigadas a implementa-las
+	// se comentarmos esse metodo, o eclipse vai reclamar
+	public void fazerBarulho() {
+		System.out.println("au, au, au");
+	}
+	
+}

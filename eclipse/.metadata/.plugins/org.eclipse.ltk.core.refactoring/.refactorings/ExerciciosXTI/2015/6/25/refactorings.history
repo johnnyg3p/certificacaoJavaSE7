@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.exercicioXTI.teste.AnimalTeste&apos; to &apos;TestePolimorfismo&apos;&#x0A;- Original project: &apos;ExerciciosXTI&apos;&#x0A;- Original element: &apos;br.com.exercicioXTI.teste.AnimalTeste&apos;&#x0A;- Renamed element: &apos;br.com.exercicioXTI.teste.TestePolimorfismo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AnimalTeste&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.com.exercicioXTI.teste{AnimalTeste.java[AnimalTeste" matchStrategy="1" name="TestePolimorfismo" qualified="false" references="true" similarDeclarations="false" stamp="1434839210704" textual="false" version="1.0"/>
+</session>
